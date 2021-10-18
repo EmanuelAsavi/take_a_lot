@@ -1,7 +1,10 @@
-#Takealot 
-###[https://www.takealot.com/](https://www.takealot.com/)
-###Part 1 - UI Testing Scenario
-##Implementation
+# Takealot 
+
+### [https://www.takealot.com/](https://www.takealot.com/)
+
+### Part 1 - UI Testing Scenario
+
+## Implementation
     
 
 I use **IntelliJ** IDE, **JAVA** as programming language, **Selenium** with **JUnit** as testing Framework and **Maven** as a build management tool.
@@ -31,9 +34,9 @@ I try to get all the products locators dynamically, so for different data I can 
 
 As **improvement** if we need to test multiple data I can use **Scenario outline** in order to use multiple data with the same code, and I can come up with more scenarios to make sure that I cover as much as I can for the functionality. 
 
-#OpenWeather
-###[https://www.takealot.com/](https://www.takealot.com/)
-###Part 2 - API Testing Scenario
+# OpenWeather
+### [https://www.takealot.com/](https://www.takealot.com/)
+### Part 2 - API Testing Scenario
 
 I used **Postman** to perform manual testing and I use **RestAssured** library for automation.
 
@@ -42,7 +45,7 @@ I use the same Framework for the **API** testing and I perform five positive sce
 I use London as a city name when I sent **GET** request and I used the provided **Key** for authorization.
 I used **path() method** and **JsonPath** for deserialization and I checked the **status code**, **content type** and **body**.
 
-#Running Maven Commands
+# Running Maven Commands
 
 Although hardly a comprehensive list, these are the most common default lifecycle phases executed.
 
